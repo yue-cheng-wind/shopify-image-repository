@@ -1,12 +1,27 @@
-# Getting Started with Create React App
+# Shopify-Image-Repository App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was inspired from the Fall 2021 Shopify Intern Chanllenge, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-## Available Scripts
+## Challenge Description
+Build an image repository.
 
-In the project directory, you can run:
+You can tackle this challenge using any technology you want. This is an open-ended task.
 
-### `npm start`
+Please provide brief instructions on how to use your application. We are a test driven environment, so ensure your challenge includes tests. Provide brief instructions on how to use your application, so that someone could use your application and understand how it works. 
+
+## Project App Description
+I built this image repository as the idea of collections of flower pictures name 'search garden'. The frontend is built via ReactJS and Material UI library; the backend is hosted on firebase. Documents and images are stored in firebase store and firebase storage, respectively. Each document in firebase store has 3 attributes: "image name", "description", and "url".
+
+Two features are implemented for this POC product:
+
+(1) Search images. Clients can filter the images by image name.\
+(2) Add images. Clients can upload images from local drive to firebase to this image repository.
+
+## Run Scripts
+
+To run this project, in the root directory, run
+
+###`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -16,55 +31,10 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner as App.test.js in the root directory in the interactive watch mode.\
+In App.test.js, three categories of tests are conducted:\
+(1) Test the rendering of Home.js Component.\
+(2) Test the the rendering and functionality of SearchBar.js.\
+(3) Test the rendering of UploadButton.js.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
