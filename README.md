@@ -1,6 +1,6 @@
 # Shopify-Image-Repository App
 
-This project was inspired from the Fall 2021 Shopify Intern Chanllenge, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This project was inspired from the Fall 2021 Shopify Intern Chanllenge(https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit#), and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Deployed Link and Video demo
 Deployed link: https://image-repository-yue.herokuapp.com/ <br>
