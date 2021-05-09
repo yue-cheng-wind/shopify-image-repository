@@ -19,9 +19,14 @@ Two features are implemented for this POC product:
 
 ## Run Scripts
 
-To run this project, in the root directory, run
+To run this project, in your local terminal, do:
+```
+$ git clone https://github.com/yue-cheng-wind/shopify-image-repository.git
+$ npm install
+```
+Now the web app is install to your local machine.
 
-###`npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
