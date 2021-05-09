@@ -2,8 +2,9 @@
 
 This project was inspired from the Fall 2021 Shopify Intern Chanllenge, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
-## Deployed Link
-https://image-repository-yue.herokuapp.com/
+## Deployed Link and Video demo
+Deployed link: https://image-repository-yue.herokuapp.com/ <br>
+Video demo link: https://www.youtube.com/watch?v=QvxgzL8XBks
 
 ## Challenge Description
 Build an image repository.
