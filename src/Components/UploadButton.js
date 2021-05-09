@@ -61,7 +61,7 @@ export default function FormDialog(props) {
 
     return (
         <div>
-            <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+            <Button variant="outlined" color="primary" onClick={handleClickOpen} id="upload_image_button">
                 Upload Image
       </Button>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">

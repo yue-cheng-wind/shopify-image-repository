@@ -65,10 +65,10 @@ function Home() {
 
                 </div>
 
-                <Toolbar flex>
+                <Toolbar flex id="toolbar">
                     <SearchBar input={input}
-                        updateInput={handleSearch} />
-                    <UploadButton setToggle={setToggle} toggle={toggle} />
+                        updateInput={handleSearch} id="searchbar" />
+                    <UploadButton setToggle={setToggle} toggle={toggle} id="uploadbutton" />
                 </Toolbar>
 
                 {/* Images Collection */}
