@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 import Home from './Components/Pages/Home';
@@ -6,7 +6,16 @@ import SearchBar from './Components/SearchBar';
 import UploadButton from './Components/UploadButton';
 import { fireEvent } from '@testing-library/react';
 
+// This is the test file for the Application. Three main categories of tests are conducted:
+// 1. Test the rendering of Home.js Component
+// 2. Test the the rendering and functionality of SearchBar.js
+// 3. Test the rendering of UploadButton.js
+// To run the test, do "$npm test" in root directory
+
 function testHomePage() {
+
+
+
     let container = null;
     beforeEach(() => {
         // setup a DOM element as a render target

@@ -8,8 +8,6 @@ import { Toolbar } from '@material-ui/core';
 import UploadButton from '../UploadButton'
 import { app } from '../../base'
 
-/* Pages and Components */
-
 
 
 function Home() {
