@@ -1,0 +1,87 @@
+import React, { useState, useEffect } from 'react';
+import './Home.css';
+import Cards from '../Cards'
+import SearchBar from '../SearchBar';
+
+
+import { Toolbar } from '@material-ui/core';
+import UploadButton from '../UploadButton'
+import { app } from '../../base'
+
+/* Pages and Components */
+
+
+
+function Home() {
+
+
+
+    const [input, setInput] = useState("");
+    const [itemList, setItemList] = useState([]);
+    const [displayItemList, setDisplayItemList] = useState([]);
+
+    const [toggle, setToggle] = useState(false);
+
+    const db = app.firestore();
+
+    const handleSearch = e => {
+        let target = e.target;
+        setInput(target.value);
+        console.log("target is", target.value);
+        if (target.value !== "") {
+            setDisplayItemList(itemList.filter(x => x.imageName.toLowerCase().includes((target.value).toLowerCase())))
+        } else {
+            setDisplayItemList(itemList)
+        }
+
+    }
+
+
+
+    useEffect(async () => {
+
+        const imageCollection = await db.collection('imageCollection').get();
+        var tempList = imageCollection.docs.map(doc => {
+            console.log(doc.data());
+            return doc.data();
+        })
+        setItemList(tempList);
+        setDisplayItemList(tempList);
+        console.log(tempList);
+
+        console.log("images loaded");
+    }, [toggle]);
+
+
+
+    return (
+        <>
+            <div id="home_container">
+                {/* About Website information */}
+                <div className="home_content" id="home_about">
+                    <h1>Secret Garden</h1>
+                    <p>Your dream lives here.</p>
+
+
+                </div>
+
+                <Toolbar flex>
+                    <SearchBar input={input}
+                        updateInput={handleSearch} />
+                    <UploadButton setToggle={setToggle} toggle={toggle} />
+                </Toolbar>
+
+                {/* Images Collection */}
+                <Cards itemList={displayItemList} />
+
+
+
+
+
+
+            </div>
+        </>
+    );
+}
+
+export default Home;

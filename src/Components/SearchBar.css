@@ -1,0 +1,28 @@
+
+
+
+
+.searchTerm {
+  width: 20rem;
+  border: 3px solid #333f48;
+  /* border-right: none; */
+  padding: 0.5rem;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #9DBFAF;
+  padding: 20px 10px; line-height: 28px; 
+
+}
+
+.searchbox{
+  margin:auto;
+  margin-left: 1%;
+
+}
+
+.searchTerm:focus{
+  color:black;
+}
+
+
