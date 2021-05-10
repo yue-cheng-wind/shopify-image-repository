@@ -28,7 +28,7 @@ export default function Link1() {
 
                 <h3 className="smaller_h1">Features Summary and Coding Logistics</h3>
                 <p class='text_for_first'>
-                    For more details please read our README.md file in our github at <a href="https://github.com/yue-cheng-wind/shopify-image-repository">https://github.com/yue-cheng-wind/shopify-image-repository</a>
+                    For more details please read README.md file in my github at <a href="https://github.com/yue-cheng-wind/shopify-image-repository">https://github.com/yue-cheng-wind/shopify-image-repository</a>
                 </p>
                 <br></br>
 
