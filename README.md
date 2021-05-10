@@ -14,7 +14,7 @@ You can tackle this challenge using any technology you want. This is an open-end
 Please provide brief instructions on how to use your application. We are a test driven environment, so ensure your challenge includes tests. Provide brief instructions on how to use your application, so that someone could use your application and understand how it works. 
 
 ## Project App Description
-I built this image repository as the idea of collections of flower pictures name 'search garden'. The frontend is built via ReactJS and Material UI library; the backend is hosted on firebase. Documents and images are stored in firebase store and firebase storage, respectively. Each document in firebase store has 3 attributes: "image name", "description", and "url".
+I built this image repository as the idea of collections of flower pictures name 'search garden'. The frontend is built via ReactJS and Material UI library; the database is hosted on firebase, web app is hosted on heroku. Documents and images are stored in firebase store and firebase storage, respectively. Each document in firebase store has 3 attributes: "image name", "description", and "url".
 
 Two features are implemented for this POC product:
 
