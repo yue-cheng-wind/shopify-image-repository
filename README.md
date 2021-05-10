@@ -3,7 +3,7 @@
 This project was inspired from the Fall 2021 Shopify Intern Chanllenge(https://docs.google.com/document/d/1ZKRywXQLZWOqVOHC4JkF3LqdpO3Llpfk_CkZPR8bjak/edit#), and bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Deployed Link and Video demo
-Deployed link: https://imagerepo-8fb04.web.app/ <br>
+Deployed link: https://imagerepo-8fb04.firebaseapp.com/ <br>
 Video demo link: https://www.youtube.com/watch?v=QvxgzL8XBks
 
 ## Challenge Description
